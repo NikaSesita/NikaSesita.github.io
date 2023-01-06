@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@400;500;600;700&display=swap');
+
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(144, 144, 245, 1) 40%, rgba(0, 212, 255, 1) 100%);
+    font-family: 'Noto Sans Georgian', sans-serif;
+}
+
+.container {
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 150px;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.parent {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.container input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.charlemange {
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+    border: none;
+    background-color: #8e48ea;
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.charlemange:hover {
+    transition: 0.2s;
+    background:white;
+    color: rgb(194, 8, 194);
+    box-shadow: 1px 0px 21px -1px;
+    
+}
+
+.box {
+    width: 97.5%;
+    height: auto;
+    border-radius: 3px;
+    border-color: rgb(238, 233, 233);
+    background-color: rgba(228, 228, 228, 0.616);
+    font-size: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    cursor: pointer;
+    color: rgb(54, 53, 53);
+    transition: 0.3s ease-in-out;
+}
+
+.box:hover {
+    color: white;
+    transition: 0.9s;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(144, 144, 245, 1) 40%, rgba(0, 212, 255, 1) 100%);
+}
+
+.shotadarbaidze {
+    padding: 5px 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.shotadarbaidze:hover {
+    transition: 0.5s;
+    background: white;
+    color: red;
+    border-radius: 5px;
+    box-shadow: 1px 0px 21px -1px rgba(0,0,0,0.75);
+}
+.ohio {
+    margin-left: 100px;
+    height: 35px;
+    width: 100px;
+    background-color: #8e48ea;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.ohio:hover {
+    color: #8e48ea;
+    transition: 0.3s;
+    background: white;
+    box-shadow: 1px 0px 21px -1px;
+}
